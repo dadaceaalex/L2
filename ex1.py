@@ -1,2 +1,4 @@
-print(2 < 3 and 4 >3)
-print(2 > 3 or 3 > 2)
+nr=25
+bitNumber = 2
+nr = nr & ~(1 << bitNumber)
+print(nr)
